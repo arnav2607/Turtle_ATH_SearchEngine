@@ -157,6 +157,7 @@ def get_1y_return(ticker):
 # ==========================================
 
 if st.button("🚀 Run Screener"):
+    st.write("Running Screener... This may take a few moments.")
 
     stock_list = df['Ticker'].tolist()
 
